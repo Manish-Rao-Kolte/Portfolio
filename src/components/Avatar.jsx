@@ -49,7 +49,7 @@ const Avatar = () => {
                     strokeWidth="4"
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    initial={{ strokeDashkarray: "24 10 0 0" }}
+                    initial={{ strokedashkarray: "24 10 0 0" }}
                     animate={{
                         strokeDasharray: [
                             "15 120 25 25",

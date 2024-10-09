@@ -21,12 +21,12 @@ const ServicesPage = () => {
                                 <a
                                     target="_blank"
                                     href={service.href}
-                                    className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
+                                    className="w-[55px] h-[55px] md:w-[70px] md:h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
                                 >
-                                    <BsArrowDownRight className="text-primary text-3xl" />
+                                    <BsArrowDownRight className="text-primary text-2xl md:text-3xl" />
                                 </a>
                             </div>
-                            <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 overflow-hidden text-ellipsis whitespace-nowrap">
+                            <h2 className="text-3xl md:text-[42px] font-bold leading-normal md:leading-none text-white group-hover:text-accent transition-all duration-500 flex flex-wrap">
                                 {service.title}
                             </h2>
                             <p className="text-white/60">

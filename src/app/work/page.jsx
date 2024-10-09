@@ -62,12 +62,12 @@ const WorkPage = () => {
             <div className="flex flex-col xl:flex-row xl:gap-[30px]">
                 <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
                     <div className="flex flex-col gap-[30px] h-[50%]">
-                        <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
+                        <div className="text-6xl md:text-8xl leading-none font-extrabold text-transparent text-outline">
                             {project?.num}
                         </div>
 
                         {/* category */}
-                        <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize text-pretty">
+                        <h2 className="text-4xl md:text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500 capitalize text-pretty">
                             {project?.category} project
                         </h2>
 
@@ -135,7 +135,7 @@ const WorkPage = () => {
                     >
                         {projects.map((project, index) => (
                             <SwiperSlide key={index} className="w-full">
-                                <div className="h-[460px] relative group flex justify-center items-center bg-pink-50/20">
+                                <div className="h-[300px] md:h-[460px] relative group flex justify-center items-center bg-pink-50/20">
                                     {/* overlay */}
                                     <div></div>
                                     {/* image */}

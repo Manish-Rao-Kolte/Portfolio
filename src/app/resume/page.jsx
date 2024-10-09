@@ -250,7 +250,7 @@ const ResumePage = () => {
                             <h3 className="text-4xl font-bold">
                                 {about.title}
                             </h3>
-                            <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
+                            <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0 text-pretty">
                                 {about.description}
                             </p>
                             <ScrollArea className="h-[400px]">
@@ -259,7 +259,7 @@ const ResumePage = () => {
                                         return (
                                             <li
                                                 key={index}
-                                                className="flex justify-center items-center xl:justify-start gap-4"
+                                                className="flex pl-4 md:pl-0 md:justify-center items-center xl:justify-start gap-4"
                                             >
                                                 <span className="text-white/60">
                                                     {item.fieldName}

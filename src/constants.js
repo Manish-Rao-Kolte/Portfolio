@@ -43,17 +43,17 @@ export const stats = [
 export const services = [
   {
     num: "01",
-    title: "Web Development",
-    description:
-      "I can help you build your dream website. From personal portfolio to e-commerce website, I can build all.",
-    href: "https://springdale-public-school-v1.netlify.app/",
-  },
-  {
-    num: "02",
     title: "Mobile Development",
     description:
       "I can help you build your dream mobile application. From video streaming to e-commerce app, I can build all.",
     href: "https://drive.google.com/file/d/1ppapziKvWUgT1oobWYBl2aVnt6I6Kvw2/view?usp=drive_link",
+  },
+  {
+    num: "02",
+    title: "Web Development",
+    description:
+      "I can help you build your dream website. From personal portfolio to e-commerce website, I can build all.",
+    href: "https://springdale-public-school-v1.netlify.app/",
   },
   {
     num: "03",

@@ -221,10 +221,13 @@ const ResumePage = () => {
                                                     delayDuration={100}
                                                 >
                                                     <Tooltip>
-                                                        <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                                                        <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex flex-col justify-center items-center group">
                                                             <div className="text-6xl group-hover:text-accent transition-all duration-300">
                                                                 {skill.icon}
                                                             </div>
+                                                            <p className="text-center md:hidden capitalize text-accent">
+                                                                {skill.name}
+                                                            </p>
                                                         </TooltipTrigger>
                                                         <TooltipContent>
                                                             <p className="text-center capitalize">

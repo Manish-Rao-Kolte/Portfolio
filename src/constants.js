@@ -27,8 +27,8 @@ export const stats = [
     text: "Years of experience(Non-Tech)",
   },
   {
-    num: 20,
-    text: "Projects completed",
+    num: 8,
+    text: "Projects completed", 
   },
   {
     num: 10,

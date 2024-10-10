@@ -12,7 +12,7 @@ const Stats = () => {
                         return (
                             <div
                                 key={index}
-                                className="w-full sm:flex-1 flex gap-6 items-start md:items-center md:justify-center xl:justify-start group"
+                                className="w-full sm:flex-1 mx-auto flex gap-6 items-center md:justify-center xl:justify-start group"
                             >
                                 <div className="text-2xl min-w-[60px] justify-left md:min-w-none md:text-4xl xl:text-6xl flex gap-1 sm:justify-center items-center font-extrabold">
                                     <CountUp

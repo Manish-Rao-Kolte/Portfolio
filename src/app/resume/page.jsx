@@ -225,7 +225,7 @@ const ResumePage = () => {
                                                             <div className="text-6xl group-hover:text-accent transition-all duration-300">
                                                                 {skill.icon}
                                                             </div>
-                                                            <p className="text-center md:hidden capitalize text-accent">
+                                                            <p className="text-center lg:hidden capitalize text-accent">
                                                                 {skill.name}
                                                             </p>
                                                         </TooltipTrigger>

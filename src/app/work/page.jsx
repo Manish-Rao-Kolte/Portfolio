@@ -23,7 +23,7 @@ const projects = [
             "A react native app for users to get doctor consultation online on mobile devices.",
         stack: ["React Native", "Node.js", "Express.js", "MongoDB"],
         image: "/assets/work/Doc8click.jpg",
-        live: "https://drive.google.com/file/d/1ppapziKvWUgT1oobWYBl2aVnt6I6Kvw2/view?usp=drive_link",
+        live: "https://drive.google.com/drive/folders/15fF69Oyhe_2EncO0BxZCP9Fdz4fcIXMe?usp=drive_link",
         github: "https://github.com/Manish-Rao-Kolte/android-Doc8click",
     },
     {
